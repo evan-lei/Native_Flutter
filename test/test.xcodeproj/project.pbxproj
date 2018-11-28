@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205BA84D1F566BA6002FAE94 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205BA84C1F566BA6002FAE94 /* testTests.m */; };
+		205BA8581F566BA6002FAE94 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205BA8571F566BA6002FAE94 /* testUITests.m */; };
+		20844C1E21ACE0BE0064954D /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20844C1921AC18F00064954D /* App.framework */; };
+		20844C1F21ACE0BE0064954D /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20844C1921AC18F00064954D /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20844C2221ACE0C30064954D /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20844C1721AC18BA0064954D /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20844CFA21ACED5F0064954D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20844CEE21ACED5F0064954D /* Assets.xcassets */; };
+		20844CFB21ACED5F0064954D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20844CEF21ACED5F0064954D /* ViewController.m */; };
+		20844CFC21ACED5F0064954D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20844CF121ACED5F0064954D /* LaunchScreen.storyboard */; };
+		20844CFD21ACED5F0064954D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20844CF321ACED5F0064954D /* Main.storyboard */; };
+		20844CFE21ACED5F0064954D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20844CF521ACED5F0064954D /* main.m */; };
+		20844CFF21ACED5F0064954D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20844CF621ACED5F0064954D /* AppDelegate.m */; };
+		20844D0021ACED5F0064954D /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 20844CF721ACED5F0064954D /* GeneratedPluginRegistrant.m */; };
+		20844D1621ACED6F0064954D /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 20844D0321ACED6F0064954D /* Debug.xcconfig */; };
+		20844D1721ACED6F0064954D /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20844D0421ACED6F0064954D /* Flutter.framework */; };
+		20844D2221ACED6F0064954D /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20844D1421ACED6F0064954D /* AppFrameworkInfo.plist */; };
+		20844D2521ACEDA20064954D /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 20844D2421ACEDA20064954D /* flutter_assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205BA8491F566BA6002FAE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BA8271F566BA5002FAE94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205BA82E1F566BA5002FAE94;
+			remoteInfo = test;
+		};
+		205BA8541F566BA6002FAE94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BA8271F566BA5002FAE94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205BA82E1F566BA5002FAE94;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20844C2021ACE0BE0064954D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20844C1F21ACE0BE0064954D /* App.framework in Embed Frameworks */,
+				20844C2221ACE0C30064954D /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		205BA82F1F566BA5002FAE94 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BA8481F566BA6002FAE94 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BA84C1F566BA6002FAE94 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		205BA84E1F566BA6002FAE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205BA8531F566BA6002FAE94 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BA8571F566BA6002FAE94 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
+		205BA8591F566BA6002FAE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20844C1721AC18BA0064954D /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
+		20844C1921AC18F00064954D /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		20844CED21ACED5F0064954D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20844CEE21ACED5F0064954D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20844CEF21ACED5F0064954D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20844CF021ACED5F0064954D /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		20844CF221ACED5F0064954D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20844CF421ACED5F0064954D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20844CF521ACED5F0064954D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20844CF621ACED5F0064954D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20844CF721ACED5F0064954D /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		20844CF821ACED5F0064954D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20844CF921ACED5F0064954D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20844D0321ACED6F0064954D /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		20844D0421ACED6F0064954D /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		20844D0521ACED6F0064954D /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		20844D0621ACED6F0064954D /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		20844D1421ACED6F0064954D /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		20844D1521ACED6F0064954D /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
+		20844D2421ACEDA20064954D /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205BA82C1F566BA5002FAE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20844C1E21ACE0BE0064954D /* App.framework in Frameworks */,
+				20844D1721ACED6F0064954D /* Flutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA8451F566BA6002FAE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA8501F566BA6002FAE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205BA8261F566BA5002FAE94 = {
+			isa = PBXGroup;
+			children = (
+				20844D0221ACED6F0064954D /* Flutter */,
+				20844CEC21ACED5F0064954D /* test */,
+				205BA84B1F566BA6002FAE94 /* testTests */,
+				205BA8561F566BA6002FAE94 /* testUITests */,
+				205BA8301F566BA5002FAE94 /* Products */,
+				20844C1621AC18BA0064954D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		205BA8301F566BA5002FAE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205BA82F1F566BA5002FAE94 /* test.app */,
+				205BA8481F566BA6002FAE94 /* testTests.xctest */,
+				205BA8531F566BA6002FAE94 /* testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205BA84B1F566BA6002FAE94 /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				205BA84C1F566BA6002FAE94 /* testTests.m */,
+				205BA84E1F566BA6002FAE94 /* Info.plist */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		205BA8561F566BA6002FAE94 /* testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				205BA8571F566BA6002FAE94 /* testUITests.m */,
+				205BA8591F566BA6002FAE94 /* Info.plist */,
+			);
+			path = testUITests;
+			sourceTree = "<group>";
+		};
+		20844C1621AC18BA0064954D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20844C1921AC18F00064954D /* App.framework */,
+				20844C1721AC18BA0064954D /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20844CEC21ACED5F0064954D /* test */ = {
+			isa = PBXGroup;
+			children = (
+				20844CED21ACED5F0064954D /* AppDelegate.h */,
+				20844CEE21ACED5F0064954D /* Assets.xcassets */,
+				20844CEF21ACED5F0064954D /* ViewController.m */,
+				20844CF021ACED5F0064954D /* GeneratedPluginRegistrant.h */,
+				20844CF121ACED5F0064954D /* LaunchScreen.storyboard */,
+				20844CF321ACED5F0064954D /* Main.storyboard */,
+				20844CF521ACED5F0064954D /* main.m */,
+				20844CF621ACED5F0064954D /* AppDelegate.m */,
+				20844CF721ACED5F0064954D /* GeneratedPluginRegistrant.m */,
+				20844CF821ACED5F0064954D /* Info.plist */,
+				20844CF921ACED5F0064954D /* ViewController.h */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		20844D0221ACED6F0064954D /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				20844D2421ACEDA20064954D /* flutter_assets */,
+				20844D0321ACED6F0064954D /* Debug.xcconfig */,
+				20844D0421ACED6F0064954D /* Flutter.framework */,
+				20844D0521ACED6F0064954D /* Release.xcconfig */,
+				20844D0621ACED6F0064954D /* App.framework */,
+				20844D1421ACED6F0064954D /* AppFrameworkInfo.plist */,
+				20844D1521ACED6F0064954D /* Generated.xcconfig */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205BA82E1F566BA5002FAE94 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205BA85C1F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				205BA82B1F566BA5002FAE94 /* Sources */,
+				205BA82C1F566BA5002FAE94 /* Frameworks */,
+				205BA82D1F566BA5002FAE94 /* Resources */,
+				20844C2021ACE0BE0064954D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 205BA82F1F566BA5002FAE94 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205BA8471F566BA6002FAE94 /* testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205BA85F1F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildPhases = (
+				205BA8441F566BA6002FAE94 /* Sources */,
+				205BA8451F566BA6002FAE94 /* Frameworks */,
+				205BA8461F566BA6002FAE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205BA84A1F566BA6002FAE94 /* PBXTargetDependency */,
+			);
+			name = testTests;
+			productName = testTests;
+			productReference = 205BA8481F566BA6002FAE94 /* testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		205BA8521F566BA6002FAE94 /* testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205BA8621F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildPhases = (
+				205BA84F1F566BA6002FAE94 /* Sources */,
+				205BA8501F566BA6002FAE94 /* Frameworks */,
+				205BA8511F566BA6002FAE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205BA8551F566BA6002FAE94 /* PBXTargetDependency */,
+			);
+			name = testUITests;
+			productName = testUITests;
+			productReference = 205BA8531F566BA6002FAE94 /* testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205BA8271F566BA5002FAE94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Evan;
+				TargetAttributes = {
+					205BA82E1F566BA5002FAE94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LSND274XQ9;
+						ProvisioningStyle = Automatic;
+					};
+					205BA8471F566BA6002FAE94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 205BA82E1F566BA5002FAE94;
+					};
+					205BA8521F566BA6002FAE94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 205BA82E1F566BA5002FAE94;
+					};
+				};
+			};
+			buildConfigurationList = 205BA82A1F566BA5002FAE94 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205BA8261F566BA5002FAE94;
+			productRefGroup = 205BA8301F566BA5002FAE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205BA82E1F566BA5002FAE94 /* test */,
+				205BA8471F566BA6002FAE94 /* testTests */,
+				205BA8521F566BA6002FAE94 /* testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205BA82D1F566BA5002FAE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20844D2521ACEDA20064954D /* flutter_assets in Resources */,
+				20844CFD21ACED5F0064954D /* Main.storyboard in Resources */,
+				20844CFA21ACED5F0064954D /* Assets.xcassets in Resources */,
+				20844D1621ACED6F0064954D /* Debug.xcconfig in Resources */,
+				20844D2221ACED6F0064954D /* AppFrameworkInfo.plist in Resources */,
+				20844CFC21ACED5F0064954D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA8461F566BA6002FAE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA8511F566BA6002FAE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205BA82B1F566BA5002FAE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20844CFE21ACED5F0064954D /* main.m in Sources */,
+				20844CFB21ACED5F0064954D /* ViewController.m in Sources */,
+				20844CFF21ACED5F0064954D /* AppDelegate.m in Sources */,
+				20844D0021ACED5F0064954D /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA8441F566BA6002FAE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BA84D1F566BA6002FAE94 /* testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BA84F1F566BA6002FAE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BA8581F566BA6002FAE94 /* testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205BA84A1F566BA6002FAE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205BA82E1F566BA5002FAE94 /* test */;
+			targetProxy = 205BA8491F566BA6002FAE94 /* PBXContainerItemProxy */;
+		};
+		205BA8551F566BA6002FAE94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205BA82E1F566BA5002FAE94 /* test */;
+			targetProxy = 205BA8541F566BA6002FAE94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20844CF121ACED5F0064954D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20844CF221ACED5F0064954D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20844CF321ACED5F0064954D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20844CF421ACED5F0064954D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		205BA85A1F566BA6002FAE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		205BA85B1F566BA6002FAE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205BA85D1F566BA6002FAE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = LSND274XQ9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Flutter";
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Flutter";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		205BA85E1F566BA6002FAE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = LSND274XQ9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Flutter";
+				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Flutter";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		205BA8601F566BA6002FAE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Debug;
+		};
+		205BA8611F566BA6002FAE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Release;
+		};
+		205BA8631F566BA6002FAE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Debug;
+		};
+		205BA8641F566BA6002FAE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sogou.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205BA82A1F566BA5002FAE94 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BA85A1F566BA6002FAE94 /* Debug */,
+				205BA85B1F566BA6002FAE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205BA85C1F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BA85D1F566BA6002FAE94 /* Debug */,
+				205BA85E1F566BA6002FAE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205BA85F1F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BA8601F566BA6002FAE94 /* Debug */,
+				205BA8611F566BA6002FAE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205BA8621F566BA6002FAE94 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BA8631F566BA6002FAE94 /* Debug */,
+				205BA8641F566BA6002FAE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205BA8271F566BA5002FAE94 /* Project object */;
+}
